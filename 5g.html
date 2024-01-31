@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        Donate your smile
+    </title>
+
+    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/5gstyles.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Navigate</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-page.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ai.html">AI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iotathome.html">IoT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./5g.html">Donate your smile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container-fluid">
+
+
+
+      <div class="starter-template">
+        <h1>Donate Your Smile</h1>
+      </div>
+
+      <!-- columns -->
+      <div class="card mb-3" style="max-width: 1600px; background-color: #f8f9fabd;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="images/smiles.jpg" class="card-img" alt="..." height="350" width="700">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Donate your smile?</h3>
+              <p style="font-size:20px"class="card-text">Simply smile and you donated. Weather you are waiting for an elevator or queuing you can now create better outcomes for yourself and others. It works by overlaying a sponsored filter on your face triggered by your smile. The ad revenue is what pays for the donations. And allowing users to extended their experience via our qr code where they can retrieve voucher or shop directly for example. </p>
+              <p style="font-size:20px"class="card-text">Click "Start" button below and wait for ~5 seconds to try it out.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="bd-example">
+
+
+    <div class="container">
+      <div class="box-btn">
+        <button id="start-button" class="btn-header">Start</button>
+        <button id="restart-button" class="btn-header" disabled>Restart</button>
+      </div>
+      <div id="multimedia" class="multimedia" >
+        <div id="multi" class="multi"></div>
+        <video id="video"  autoplay muted class="video"></video>
+        <div id="canvas" class="canvas"></div>
+      </div>
+      <div id="progress" class="progress mt-4">
+        <div id="progress-bar" class="progress-bar" style="width: 0;"></div>
+      </div>
+      <div id="smile-counters" class="box-btn">
+        <h5><span id="smile-counter-1" class="btn-footer">Person 1 Smiles: 0</span></h5>
+        <h5><span id="smile-counter-2" class="btn-footer">Person 2 Smiles: 0</span></h5>
+      </div>
+    </div>
+    <div id="popup" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="box-btn">
+            <div id="winner" class="winner"></div>
+            <button id="play-again" class="btn-header">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="face-api.min.js"></script>
+    <script src="smile-detection.js"></script>
+    <script>
+      window.addEventListener('load', (event) => {
+        startSmileDetection();
+      });
+    </script>
+
+</div>
+<br>
+<br>
+  <div class="jumbotron">
+    <h3 class="display-4">Get In Touch</h3>
+    <p class="lead">Let us know your questions, suggestions and concerns of this site.</p>
+    <hr class="my-4">
+    <img src="images/letter.jpg" height="220" width="250" align="right" style=position:relative;top:-90px;>
+    <br>
+    <br>
+    <a href="https://outlook.office365.com" target="_blank">
+    <button type="button" class="btn btn-success" style=display:block;>Contact us</button>
+    </a>
+
+
+  </div>
+
+
+
+      <!-- Add another row here -->
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

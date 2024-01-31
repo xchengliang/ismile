@@ -1,0 +1,90 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/ai-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 72px;
+  font-weight: bolder;
+}
+
+.types-of-ai h2 {
+  font-weight: bolder;
+  padding: 20px;
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 0px;
+}
+
+.li2 {
+  list-style-type: circle;
+  text-align: left;
+
+}
+
+.navbar-dark {
+  background-color: rgba(204, 255, 255, 0.3);
+}
+
+.title {
+  text-align: left;
+  font-size: 30px;
+  padding: 150px;
+  color: rgba(204, 255, 255, 0.7);
+}
+
+.types-of-ai {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(204, 255, 255, 0.1);
+}
+
+.ani {
+  margin: 0px;
+  padding: 30px;
+  box-sizing: inherit;
+  background-color: rgba(243, 255, 255, 0.2)
+}
+
+.agi {
+  margin: 0px;
+  padding: 30px;
+  box-sizing: inherit;
+  background-color: rgba(243, 255, 255, 0.3)
+}
+
+.asi {
+  margin-top: 0px;
+  padding: 30px;
+  height: 100%;
+  box-sizing: inherit;
+  background-color: rgba(243, 255, 255, 0.4)
+}
+
+.why-the-fuss {
+  text-align: center;
+  background-color: (204, 255, 255, 0.5)
+  padding: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}

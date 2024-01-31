@@ -1,0 +1,126 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  color:black;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size:80px;
+  color:black;
+  margin-top: 60px;
+}
+
+.iotimage {
+  height: 10%;
+  width: 15%;
+  margin-top: -10px;
+  display: flex;
+}
+
+.text {
+  font-family: 'Rajdhani', sans-serif;
+  font-size:35px;
+  color:black;
+
+}
+
+
+.text2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size:25px;
+  color:black;
+  background-color:#cce6ff;
+  text-align: left;
+}
+
+.text3 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size:30px;
+  color:white;
+}
+
+
+.alignment{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.logo1 {
+  width: 35%;
+  height: 40%;
+  padding: 10px;
+}
+
+.logo2 {
+  width: 30%;
+  height: 40%;
+  padding: 8px;
+}
+
+.logo3 {
+  width: 30%;
+  height: 40%;
+  padding: 10px;
+}
+
+.para1{
+   font-size:20px;
+   border-style: groove;
+   text-align:center;
+}
+
+.para2{
+   font-size:20px;
+   border-style: groove;
+   text-align:center;
+}
+
+.para3{
+   font-size:20px;
+   border-style: groove;
+   text-align:center;
+ }
+
+ .carouselsize {
+   margin-top: 30px;
+   height: 20%;
+ }
+
+
+ .para4 {
+   font-size:30px;
+   border-style: groove;
+   text-align:center;
+   max-width: 40%;
+   margin-top: 80px;
+   height: fit-content;
+
+ }
+
+.lock{
+  width: 40%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+
+}
+
+
+.vodafonelogo{
+  width: 40%;
+  align-items: center;
+  margin-top: -40px;
+}
+
+.jumbo1 {
+  margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+  padding-top: 5rem;
+  background-image:url("../images/5g.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  font-size:40px;
+}
+
+h1 {
+  font-size: 56px;
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.wd{
+  color: #ffc107ba;
+}
+
+.bf{
+  color: black;
+}
+
+.navbar-dark {
+  background-color: rgba(204, 255, 255, 0.3)
+}

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Emerging Technologies</title>
+
+    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <audio id="pepper-audio" src="./sounds/pepper.mp3"></audio>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="#">Navigate</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-page.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ai.html">AI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iotathome.html">IoT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./5g.html">Donate your smile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container-fluid">
+<!--page content goes here -->
+      <div class="title margin-top">
+        <div class="container">
+          <div class="row et-title">
+            <div class="col-bg titleFont">
+              Ismile
+            </div>
+            <div class="col-bg infoFont">
+              Welcome to Ismile! Click on the images to find out more about us.
+              <!--<img id='pepperPlay' class="pepper" src="images\pepper.png" alt="Pepper the cute bot!" width="120px" height="120px"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-selection">
+        <div class="row selection override">
+          <div class="col-sm ai">
+            <a href="ai.html" class="wrapper">
+            <span class="text">
+              <h2>Artificial Intelligence</h2>
+            </span>
+            <img id="ai-image" src="./images/ai-image.png" class="img-fluid make-smaller hvrimg" alt="Responsive image">
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="5g.html" class="wrapper">
+            <span class="text">
+              <h2>Donate your smile</h2>
+            </span>
+            <img id="5g-image" src="./images/donate_smiles.png" class="img-fluid make-smaller hvrimg" alt="Responsive image">
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="iotathome.html" class="wrapper">
+            <span class="text">
+              <h2>Internet of Things</h2>
+            </span>
+            <img id="iot-image" src="./images/iot-image.png" class="img-fluid make-smaller hvrimg" alt="Responsive image">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us">
+        <br/>
+        <p> social media and useful links! </p>
+        <a href="https://github.com/" target="_blank">
+          <button type="button" class="btn btn-outline-info">Github</button>
+        </a>
+
+        <a href="https://www.instagram.com/kris_lxc/?r=nametag" target="_blank">
+          <button type="button" class="btn btn-outline-info">INS</button>
+
+        </a>
+
+      </div>
+
+      <!-- Add another row here -->
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+
+      $("#pepperPlay").click(function () {
+          $("#pepper-audio")[0].play();
+      });
+
+      $(document).ready(function () {
+        $('#ai-image').hide();
+        $('#ai-image').fadeTo(4000, 0.8);
+        $('#5g-image').hide();
+        $('#5g-image').fadeTo(4000, 0.8);
+        $('#iot-image').hide();
+        $('#iot-image').fadeTo(4000, 0.8);
+      });
+
+    </script>
+  </body>
+</html>
